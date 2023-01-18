@@ -1,22 +1,148 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "salutations",
+      "patterns": [
+        "What's your name?",
+        "Who are you?",
+        "How Can I call you?"
+      ],
+      "responses": [
+        "I'm Sam",
+        "Call me Sam",
+        "I go by Sam",
+        "Sam"
+      ]
+    },
+    
+    {
+      "tag": "greetings",
       "patterns": [
         "Hi",
         "Hey",
         "How are you",
         "Is anyone there?",
         "Hello",
-        "Good day"
+        "Hello Sam",
+        "Hi Sam",
+        "Hey Sam",
+        "How are you Sam?",
+        "Good day Sam"
       ],
       "responses": [
         "Hey :-)",
         "Hello, thanks for visiting",
         "Hi there, what can I do for you?",
-        "Hi there, how can I help?"
+        "Hi there, how can I help?",
+        "What would you like me to do for you?"
       ]
     },
+
+    {
+      "tag": "goods",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What do you do?",
+        "What items are available?"
+      ],
+      "responses": [
+        "This is an online website that sells almost everything, What would you like?",
+        "We have all types of accessories",
+        "We have a lot of items that you might be looking for",
+        "We sell many entities on our platform"
+      ]
+    },
+
+    {
+      "tag": "availables",
+      "patterns": [
+        "Do you have cosmetics?",
+        "Do you have hardware material?",
+        "Do you have stationery?",
+        "Are groceries available?",
+        "Can I get clothes?",
+        "Do you have medicine?"
+
+      ],
+      "responses": [
+        "Yes, they are available",
+        "Anything Else?",
+        "Yes, please proceed to the website to check the prices and other details",
+        "Yes, please check website for more variety"
+      ]
+    },
+
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "What methods of payments do you accept?",
+        "Can I pay through M-pesa?",
+        "Do you accept Pay On Delivery?",
+        "Which types of mobile money transfer do you accept?",
+        "Do you accept pre-pay?",
+        "Do you accept post-pay?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept all credit cards, and Paypal",
+        "We have a Lipa na M-Pesa till number as well",
+        "You can pay via cash, M-Pesa, credit cards, post-pay or pre-pay",
+        "We accept all types of money payments including bitcoin",
+        "We accept all credit cards, and Paypal"
+      ]
+    },
+
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long will I wait for my goods?",
+        "How many hours does the delivery take?",
+        "When can I get my stuff?",
+        "When can I get them?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Delivery around CBD is free and will take approximately 5hrs",
+        "Delivery outside CBD and other counties will take 1-2 days",
+        "Delivery within countries in Africa will take 3-4 days?",
+        "Delivery outside Africa will take 7-8 days via air and 21-28 days via water?"
+      ]
+    },
+
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "Another one?",
+        "Another joke please?"
+      ],
+      "responses": [
+        "Man-utd is a big club :-)",
+        "I'm afraid for the Calendar, it's days are numbered",
+        "What does a tick have in common with The Eiffel tower? They are both Paris-sites",
+        "What did the zero say to eight? The belt looks good",
+        "Why couldn't the bicylce stand on it's own? it was two tired"
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
     {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
@@ -24,60 +150,6 @@
         "See you later, thanks for visiting",
         "Have a nice day",
         "Bye! Come back again soon."
-      ]
-    },
-    {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
-      "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
-      ],
-      "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
-      ]
-    },
-    {
-      "tag": "funny",
-      "patterns": [
-        "Tell me a joke!",
-        "Tell me something funny!",
-        "Do you know a joke?"
-      ],
-      "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
       ]
     }
   ]
