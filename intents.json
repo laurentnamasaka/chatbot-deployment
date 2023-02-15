@@ -52,6 +52,7 @@
         "We have all types of accessories",
         "We have a lot of items that you might be looking for",
         "We sell many entities on our platform"
+
       ]
     },
 
@@ -68,7 +69,7 @@
       ],
       "responses": [
         "Yes, they are available",
-        "Anything Else?",
+        "yes, Anything Else?",
         "Yes, please proceed to the website to check the prices and other details",
         "Yes, please check website for more variety"
       ]
